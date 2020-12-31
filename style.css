@@ -162,3 +162,9 @@ hr
     text-align: center;
 }
 
+.footer .list-item-inline .footer-img
+{
+    max-width: 50px;
+    margin:auto;
+    border-radius: 50%;
+}
