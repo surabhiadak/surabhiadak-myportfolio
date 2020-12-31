@@ -117,7 +117,12 @@ hr
 
 .hero .hero-heading .heading-inverted
 {
-    color: var(--primary-color)
+    color: black;
+}
+
+.hero .about
+{
+    text-align: center;
 }
 
 /**section**/
@@ -149,9 +154,11 @@ hr
 {
     font-weight: bold;
     font-size: large;
+    text-align: center;
 }
 .footer .links
 {
     color:white;
+    text-align: center;
 }
 
