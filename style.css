@@ -76,6 +76,12 @@ hr
     list-style: none;
     display: inline;
 }
+
+.list-books
+{
+    list-style: none;
+    display: inline;
+}
 .list-item-inline
 {
     display: inline;
@@ -162,7 +168,7 @@ hr
     text-align: center;
 }
 
-.section-proj
+.section-proj 
 {
     background-color: #D1FAE5;;
     display: block;
@@ -172,7 +178,7 @@ hr
 
 }
 
-.section-proj1
+.section-proj1 
 {
     display: block;
     margin: auto;
@@ -190,6 +196,22 @@ hr
 }
 
 .section-blog1
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: .5rem 0rem 2rem;
+}
+
+.section-books
+{
+    background-color:  #D1FAE5;;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: .5rem 0rem 2rem;
+}
+.section-books1
 {
     display: block;
     margin: auto;
