@@ -140,6 +140,7 @@ hr
 {
     background-color: var(--off-white);
     padding: 1rem 2rem;
+    align-content: center;
 }
 
 /**footer**/
