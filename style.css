@@ -143,6 +143,7 @@ hr
 .hero .about
 {
     text-align: center;
+    display: block;
 }
 
 
@@ -170,7 +171,7 @@ hr
 
 .section-proj 
 {
-    background-color: #D1FAE5;;
+    background-color: #D1FAE5;
     display: block;
     margin: auto;
     text-align: center;
@@ -219,7 +220,63 @@ hr
     padding: .5rem 0rem 2rem;
 }
 
+
 /**footer**/
+
+.footer
+{
+    background-color: var(--primary-color);
+    padding:  2rem 2rem 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+}
+.footer-social-links
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer-social-links a
+{
+    width: 70px;
+    height: 70px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.0000);
+}
+
+.footer-social-links a:hover
+{
+    color: black;
+}
+
+.footer-social-links a:hover:before
+{
+    background: #111;
+}
+.footer-social-links a i,
+.footer-social-links a span
+{
+    position: relative;
+    top: 2px;
+    left: 1px;
+
+}
+
+/**footer
 .footer
 {
     background-color: var(--primary-color);
@@ -248,3 +305,4 @@ hr
     margin:auto;
     border-radius: 50%;
 }
+**/
